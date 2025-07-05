@@ -8,11 +8,11 @@ submitBtn.addEventListener('click',function(){
             resultDiv.textContent=`you have to pay $${result}`
         }
         else if(units>100 && units<=200){
-            result=(100*0)+((units-100)*5)
+            result=((units-100)*5)
             resultDiv.textContent=`you have to pay $${result}`
         }
         else if(units>200 && units<=400){
-            result=(100*0)+(100*5)+((units-200)*10)
+            result=(100*5)+((units-200)*10)
             resultDiv.textContent=`you have to pay $${result}`
         }
         else if(units>400){
