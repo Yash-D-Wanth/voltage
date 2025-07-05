@@ -1,8 +1,8 @@
-let inputDiv=document.getElementById("inputDiv")
+let inputDiv=document.getElementById("inputDiv").value
 let submitBtn=document.getElementById("submitBtn")
 let resultDiv=document.getElementById("resultDiv")
 submitBtn.addEventListener('click',function(){
-        let units=inputDiv.value
+        let units=inputDiv
         let result=0;
         if(units<100){
             resultDiv.textContent=`you have to pay $${result}`
